@@ -1,22 +1,52 @@
-# Student Management System Java
+# 🎓 Student Management System (Java & JDBC)
 
-## 📌 Description
-Welcome to **Student Management System Java**! This project is part of the curated software workspace.
+> **Full-featured Java Swing desktop application for managing student academic records, course enrollments, GPA calculations, and JDBC database persistence.**
+
+---
+
+## ✨ Features
+
+- 🖥️ **Java Swing Desktop GUI** (`StudentManagementSystem.java`)
+  - Intuitive graphical user interface with student tables, search filters, and form dialogs.
+
+- 🗄️ **JDBC Database Integration** (`StudentDatabase.java`)
+  - Full CRUD operations connected to MySQL / SQLite via JDBC driver (`lib/`).
+
+- 📊 **GPA & Academic Analytics** (`StudentService.java`)
+  - Automatic GPA computation, grade performance tracking, and course enrollment management.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Java 17+ (Core Java)
+- **GUI Framework**: Java Swing & AWT
+- **Database**: JDBC, MySQL / SQLite
+- **Build Tool**: Maven (`pom.xml`)
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have the required runtime environment installed for this project:
-- **Node.js** (if applicable for web/frontend components)
-- **Python 3.10+** (if applicable for AI/voice scripts)
-- **Java JDK 17+** (if applicable for Java applications)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Omkar4812x/Student-Management-System-Java.git
+   cd Student-Management-System-Java
+   ```
 
-### Installation & Execution
-1. Clone this repository to your local machine.
-2. Install dependencies:
-   - For Node.js projects: `npm install`
-   - For Python projects: `pip install -r requirements.txt` (or create a venv: `python -m venv venv`)
-3. Launch the application entry point.
+2. **Compile and Run**:
+   - On Windows:
+     ```cmd
+     compile_and_run.bat
+     ```
+   - Or using Maven:
+     ```bash
+     mvn clean package
+     java -jar target/StudentManagementSystem.jar
+     ```
 
-## 📄 License & Attribution
-Created and maintained as part of the Tech Hub projects collection.
+---
+
+## 📄 License
+
+Distributed under the MIT License.
